@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
 
     <link href="style.css" rel="stylesheet">
-    <title>Perpustakaan Kita Semua</title>
+    <title>Perpustakaan Kita Semua!!!!!!!!!!!!!!!!</title>
 </head>
 
 <body>
