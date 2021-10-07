@@ -19,7 +19,7 @@
         {
             echo
             '<script>
-            alert("Create data Pengembalian success"); window.location = "../page/listMahasiswaPage.php"
+            alert("Create data Pengembalian success"); window.location = "../page/listPengembalianPage.php"
             </script>';
         }
         else
@@ -38,4 +38,3 @@
         window.history.back()
         </script>';
     }
-?>
