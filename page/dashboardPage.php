@@ -2,13 +2,13 @@
     include '../component/sidebar.php'
 ?>
     <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #17337A; boxshadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
-        <h4 >ASISTEN PEMROGRAMAN WEB 2021</h4>
+        <h4 >DASHBOARD</h4>
         <hr>
             <div class="d-flex">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-imgtop" src="https://asistenpw21.netlify.app/static/media/gerar.af5e61e8.png"  alt="Card image cap">
+                    <img class="card-imgtop" src="https://inc.mizanstore.com/aassets/img/com_cart/produk/sprint-republish-5-hari-sukses-pecahkan-masalah-dan-uji-ide-baru.jpg"  alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Gerardo Blesly</h5>
+                        <h5 class="card-title">SPRINT</h5>
                         <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
