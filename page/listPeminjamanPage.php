@@ -34,11 +34,11 @@ include '../component/sidebar.php'
                         <td>' . $data['tanggalPeminjaman'] . '</td>
                         <td>' . $data['tanggalPengembalian'] . '</td>
                         <td>
-                        <a href="../page/editPeminjamanPage.php?id=' . $data['id_peminjaman'] . '"
+                        <a href="../page/editPeminjamanPage.php?id=' . $data['id'] . '"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: green" class="fa fa-edit"></i></a>
 
-                        <a href="../process/deletePeminjamanProcess.php?id=' . $data['id_peminjaman'] . '"
+                        <a href="../process/deletePeminjamanProcess.php?id=' . $data['id'] . '"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: red" class="fa fa-trash"></i>
                         

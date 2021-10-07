@@ -13,7 +13,7 @@
         $query = mysqli_query($con,
         "INSERT INTO buku(isbn, pengarang, judulBuku, tahunTerbit, status)
         VALUES
-        ('$isbn, '$pengarang', '$judulBuku', '$tahunTerbit','$status')")
+        ('$isbn', '$pengarang', '$judulBuku', '$tahunTerbit','$status')")
         or die(mysqli_error($con)); 
 
         if($query)
@@ -39,4 +39,3 @@
         window.history.back()
         </script>';
     }
-?>
