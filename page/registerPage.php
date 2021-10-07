@@ -5,31 +5,29 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,  initial-scale=1">
-
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integ- rity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="../style.css" rel="stylesheet">
-
-
     <title>Register Page</title>
-    <link rel="shortcut icon" href="/asset/icon/Favicon2.svg">
+    <link rel="shortcut icon" href="../asset/icon/Favicon2.svg">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="\Tubes_PW\TubesPW_Perpustakaan">
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <div class="logo">
+      <a class="navbar-brand fw-bold" href="\Tubes_PW\TubesPW_Perpustakaan">
             <img src="../asset/icon/logo.svg" alt="Logo PerpustakanKu">
-            </a>
+          </a>
+      </div>
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-primary me-2" type="button" >
+                <a class="text-light" style="text-decoration: none" href="../">Kembali</a>
+            </button>
         </div>
-        <div class="no-login-box">
-            <a href="#">Anda Belum Login</a>
-        </div>
-    </nav>
-
-
+    </div>
+</nav>
     <div class="bg bg-light text-dark">
         <div class="container min-vh-100 mt-5 d-flex align-items-center justify-content-center">
             <div class="card  text-dark  bg-light  ma-5  shadow  " style="min-width:  25rem;">
@@ -37,19 +35,18 @@
                 <div class="card-body">
                     <form action="../process/registerProcess.php" method="post">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input class="form-control" id="name" name="name" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Nama Pengguna</label>
+                            <input class="form-control" id="namaPengguna" name="namaPengguna" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">NPM</label>
-                            <input class="form-control" id="npm" name="npm" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Nomor Identitas</label>
+                            <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Prodi</label>
-                            <select class="form-select" aria-label="Default  select  example" name="prodi" id="prodi">
-                                <option value="Informatika">Informatika</option>
-                                <option value="Sistem  Informasi">Sistem Informasi</option>
-                                <option value="Industri">Industri</option>
+                            <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
+                            <select class="form-select" aria-label="Default select example" name="jenisKelamin" id="jenisKelamin">
+                                <option value="Laki-Laki">Laki-Laki</option>
+                                <option value="Perempuan">Perempuan</option>
                             </select>
                         </div>
                         <div class="mb-3">

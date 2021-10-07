@@ -6,10 +6,10 @@ if (isset($_POST['login'])) {
     include('../db.php'); // untuk mengoneksikan dengan databas dengan memanggil file db.php
     //tampung nilai yang ada di from ke variable
     // sesuaikan variabel name yang ada di registerPage.php disetiap input
-    $username = $_POST['username'];
+    $namaPengguna = $_POST['namaPengguna'];
     $password = $_POST['password'];
     // Melakukan insert ke databse dengan query dibawah ini
-    $query = mysqli_query($con, "SELECT * FROM users WHERE username = '$username'") or die(mysqli_error($con));
+    $query = mysqli_query($con, "SELECT * FROM users WHERE namaPengguna = '$namaPengguna'") or die(mysqli_error($con));
     // ini buat ngecek kalo misalnya hasil dari querynya == 0 ato ga ketemu -> usernamenya tdk ditemukan
     if (mysqli_num_rows($query) == 0) {
         echo
