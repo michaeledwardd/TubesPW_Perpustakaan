@@ -13,6 +13,7 @@ include '../component/sidebar.php'
                 <th scope="col">Judul Buku</th>
                 <th scope="col">Tanggal Peminjaman</th>
                 <th scope="col">Tanggal Pengembalian</th>
+                <th scope="col">Aksi</th>
             </tr>
         </thead>
         <tbody>
@@ -33,11 +34,11 @@ include '../component/sidebar.php'
                         <td>' . $data['tanggalPeminjaman'] . '</td>
                         <td>' . $data['tanggalPengembalian'] . '</td>
                         <td>
-                        <a href="../page/editPeminjamanPage.php?id=' . $data['id'] . '"
+                        <a href="../page/editPeminjamanPage.php?id=' . $data['id_peminjaman'] . '"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: green" class="fa fa-edit"></i></a>
 
-                        <a href="../process/deletePeminjamanProcess.php?id=' . $data['id'] . '"
+                        <a href="../process/deletePeminjamanProcess.php?id=' . $data['id_peminjaman'] . '"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: red" class="fa fa-trash"></i>
                         

@@ -9,7 +9,7 @@
                 <tr>
                 <th scope="col">No</th>
                 <th scope="col">Judul Buku</th>
-                <th scope="col">Status/th>
+                <th scope="col">Status</th>
                 <th scope="col">Aksi</th>
                 </tr>
             </thead>
@@ -32,11 +32,11 @@
                         <td>'.$data['judulBuku'].'</td>
                         <td>'.$data['status'].'</td>
                         <td>
-                        <a href="../page/editBukuPage.php?id='.$data['id'].'"
+                        <a href="../page/editBukuPage.php?id='.$data['id_buku'].'"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: green" class="fa fa-edit"></i></a>
 
-                        <a href="../process/deleteBukuprocess.php?id='.$data['id'].'"
+                        <a href="../process/deleteBukuprocess.php?id='.$data['id_buku'].'"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: red" class="fa fa-trash"></i>
                         

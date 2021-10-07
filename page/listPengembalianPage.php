@@ -12,6 +12,7 @@
                 <th scope="col">Nomor Identitas</th>
                 <th scope="col">Judul Buku</th>
                 <th scope="col">Status</th>
+                <th scope="col">Aksi</th>
                 </tr>
             </thead>
             <tbody>
@@ -35,11 +36,11 @@
                         <td>'.$data['judulBuku'].'</td>
                         <td>'.$data['statusPengembalian'].'</td>
                         <td>
-                        <a href="../page/editPengembalianPage.php?id='.$data['id'].'"
+                        <a href="../page/editPengembalianPage.php?id='.$data['id_pengembalian'].'"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: green" class="fa fa-edit"></i></a>
 
-                        <a href="../process/deletePengembalianProcess.php?id='.$data['id'].'"
+                        <a href="../process/deletePengembalianProcess.php?id='.$data['id_pengembalian'].'"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: red" class="fa fa-trash"></i>
                         
