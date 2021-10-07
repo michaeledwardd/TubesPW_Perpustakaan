@@ -13,7 +13,7 @@
 
 
     <title>Register Page</title>
-    <link rel="shortcut icon" href="/asset/icon/Favicon.svg">
+    <link rel="shortcut icon" href="/asset/icon/Favicon2.svg">
 
 </head>
 

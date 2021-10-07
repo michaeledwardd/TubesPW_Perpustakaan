@@ -17,7 +17,7 @@
 
     <link href="asset/style.css" rel="stylesheet">
     <title>PerpustakaanKita</title>
-    <link rel="shortcut icon" href="asset/icon/Favicon.svg">
+    <link rel="shortcut icon" href="asset/icon/Favicon2.svg">
 </head>
 
 <body>
