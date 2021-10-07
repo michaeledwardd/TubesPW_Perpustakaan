@@ -95,7 +95,7 @@
 
                 <div class="content-menu " >
                     <i class="fa fa-plus-square"></i>
-                    <a href="./addPeminjamPage.php" style="font-weight:600">Tambah Peminjam</a>
+                    <a href="./addPeminjamanPage.php" style="font-weight:600">Tambah Peminjam</a>
                 </div>
 
                 <div class="content-menu " >

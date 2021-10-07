@@ -1,8 +1,8 @@
 <?php
-    if(isset($_GET['id'])){
+    if(isset($_GET['id_buku'])){
         include ('../db.php');
-        $id = $_GET['id'];
-        $queryDelete = mysqli_query($con, "DELETE FROM buku WHERE id='$id'") or die(mysqli_error($con));
+        $id_buku = $_GET['id_buku'];
+        $queryDelete = mysqli_query($con, "DELETE FROM buku WHERE id_buku='$id_buku'") or die(mysqli_error($con));
         if($queryDelete)
         {
             echo
