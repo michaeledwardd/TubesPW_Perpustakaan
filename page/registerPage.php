@@ -5,13 +5,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,  initial-scale=1">
-
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integ- rity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="../style.css" rel="stylesheet">
-
-
     <title>Register Page</title>
     <link rel="shortcut icon" href="../asset/icon/Favicon2.svg">
 
@@ -39,19 +35,18 @@
                 <div class="card-body">
                     <form action="../process/registerProcess.php" method="post">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input class="form-control" id="name" name="name" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Nama Pengguna</label>
+                            <input class="form-control" id="namaPengguna" name="namaPengguna" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">NPM</label>
-                            <input class="form-control" id="npm" name="npm" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Nomor Identitas</label>
+                            <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Prodi</label>
-                            <select class="form-select" aria-label="Default  select  example" name="prodi" id="prodi">
-                                <option value="Informatika">Informatika</option>
-                                <option value="Sistem  Informasi">Sistem Informasi</option>
-                                <option value="Industri">Industri</option>
+                            <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
+                            <select class="form-select" aria-label="Default select example" name="jenisKelamin" id="jenisKelamin">
+                                <option value="Laki-Laki">Laki-Laki</option>
+                                <option value="Perempuan">Perempuan</option>
                             </select>
                         </div>
                         <div class="mb-3">

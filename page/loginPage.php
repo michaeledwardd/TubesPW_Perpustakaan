@@ -37,7 +37,7 @@
                     <form action="../process/loginProcess.php" method="post">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Username</label>
-                            <input class="form-control" id="username" name="username" aria-describedby="emailHelp">
+                            <input class="form-control" id="namaPengguna" name="namaPengguna" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
