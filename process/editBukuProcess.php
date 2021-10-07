@@ -15,7 +15,7 @@
             judulBuku='$judulBuku', 
             tahunTerbit='$tahunTerbit', 
             status = '$statusPengembalian' 
-            WHERE id='$id'") 
+            WHERE id_buku='$id_buku'") 
         
         or die(mysqli_error($con));                     
         if($queryEdit){           
