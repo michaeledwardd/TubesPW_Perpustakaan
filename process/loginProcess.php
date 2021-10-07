@@ -14,8 +14,8 @@ if (isset($_POST['login'])) {
     if (mysqli_num_rows($query) == 0) {
         echo
         '<script>
- alert("Username not found!"); window.location = "../page/loginPage.php"
- </script>';
+        alert("Username not found!"); window.location = "../page/loginPage.php"
+        </script>';
     } else {
         $user = mysqli_fetch_assoc($query);
         if (password_verify($password, $user['password'])) {
@@ -27,8 +27,8 @@ if (isset($_POST['login'])) {
             $_SESSION['user'] = $user;
             echo
             '<script>
-alert("Login Success"); window.location = "../page/dashboardPage.php"
- </script>';
+            alert("Login Success"); window.location = "../page/dashboardPage.php"
+            </script>';
         } else {
             echo
             '<script>
