@@ -7,17 +7,17 @@ if(isset($_POST['register'])){
 include('../db.php');
 
 // tampung nilai yang ada di from ke variabel
-// sesuaikan variabel name yang ada di registerPage.php disetiap input
+// sesuaikan variabel namaPengguna yang ada di registerPage.php disetiap input
 $username  =  $_POST['username'];
 $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
-$name  =  $_POST['name'];
-$npm  =  $_POST['npm'];
-$prodi =  $_POST['prodi'];
+$namaPengguna  =  $_POST['namaPengguna'];
+$nomorIdentitas  =  $_POST['nomorIdentitas'];
+$jenisKelamin =  $_POST['jenisKelamin'];
 
 // Melakukan insert ke databse dengan query dibawah ini
 $query  =  mysqli_query($con,
-"INSERT INTO users(username, password, name, npm, prodi) VALUES
-('$username',  '$password',  '$name',  '$npm',  '$prodi')")
+"INSERT INTO users(username, password, namaPengguna, nomorIdentitas, jenisKelamin) VALUES
+('$username',  '$password',  '$namaPengguna',  '$nomorIdentitas',  '$jenisKelamin')")
 or die(mysqli_error($con)); // perintah mysql yang gagal dijalankan di- tangani oleh perintah “or die”
 
 if($query){ echo
