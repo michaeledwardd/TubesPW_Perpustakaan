@@ -23,7 +23,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
         <title>Dashboard!</title>
-        <link rel="shortcut icon" href="/asset/icon/Favicon2.svg">
+        <link rel="shortcut icon" href="../asset/icon/Favicon2.svg">
 
         <style>
             *{
@@ -31,7 +31,7 @@
             }
             .side-bar {
             width: 260px;
-            background-color: #16347A;
+            background-color: #212529;
             min-height: 100vh;
             }
 
@@ -50,7 +50,7 @@
 
             .isActive {
             background-color: #071853 !important;
-            border-right: 8px solid #010E2F;
+            border-right: 8px solid #FFC107;
             }
             i{
             color:white;
