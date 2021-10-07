@@ -62,8 +62,11 @@
     <aside >
         <div class="d-flex">
             <div class="side-bar">
-                <h2 class="text-light text-center pt-2">PerpustakaanKita</h2>
-                <hr>
+            <hr>
+                <a class="navbar-brand fw-bold" href="\Tubes_PW\TubesPW_Perpustakaan">
+                    <img src="../asset/icon/logo.svg" alt="Logo PerpustakanKu">
+                </a>
+            <hr>
             <div class="menu">
                 <div class="content-menu" >
                     <i class="fa fa-columns"></i>
