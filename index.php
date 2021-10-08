@@ -81,62 +81,58 @@
   <br>
 
   <!-- informasi perpustakaan -->
-  <h1>
-    <center> Informasi Perpustakaan </center>
-  </h1>
-
-  <div class="d-flex">
-    <div class="card" style="width: 18rem;">
-      <img class="card-imgtop" src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">WAJIB BAWA KARTU</h5>
-        <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-      </div>
-    </div>
-    <div class="card mx-4" style="width: 18rem;">
-      <img class="card-imgtop" src="https://media.istockphoto.com/photos/can-you-keep-a-secret-picture-id1071323224?b=1&k=20&m=1071323224&s=170667a&w=0&h=Ohhkw79tBMATMYxXt8N9SDvulL9k9vplnuX2fw_OF5A=" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">JAGA KETENANGAN</h5>
-        <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img class="card-imgtop" src="https://images.unsplash.com/photo-1586810165616-94c631fc2f79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">JAGA KEBERSIHAN</h5>
-        <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-      </div>
-    </div>
-    <div class="card mx-4" style="width: 18rem;">
-      <img class="card-imgtop" src="https://images.unsplash.com/photo-1586810165616-94c631fc2f79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">JAGA KEAMANAN</h5>
-        <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-      </div>
-    </div>
-  </div>
   <center>
-    <br>
-    <h3>Kunjungi Perpustakaan kami di: </h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1350320383776!2d110.41304270574608!3d-7.780808838571881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59f1d2361f71%3A0x4a2ce83adbcfd5aa!2sPerpustakaan%20Universitas%20Atma%20Jaya%20Yogyakarta!5e0!3m2!1sid!2sid!4v1633610599589!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      <br>
+    <h1>Informasi Perpustakaan</h1>
+    <div class="d-flex">
+      <div class="card" style="width: 18rem;">
+        <img class="card-imgtop" src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">WAJIB BAWA KARTU</h5>
+          <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   
-    </center>
-<br>
-  <center>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <p><center> Copyright © 2021 by Pemrograman Web UAJY </center>
-            <br>Design:Kelompok 8 
-            <br>AHL, EP, MES, NI</center> </p>
-          </div>
         </div>
       </div>
+      <div class="card mx-4" style="width: 18rem;">
+        <img class="card-imgtop" src="https://media.istockphoto.com/photos/can-you-keep-a-secret-picture-id1071323224?b=1&k=20&m=1071323224&s=170667a&w=0&h=Ohhkw79tBMATMYxXt8N9SDvulL9k9vplnuX2fw_OF5A=" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JAGA KETENANGAN</h5>
+          <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-imgtop" src="https://images.unsplash.com/photo-1586810165616-94c631fc2f79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JAGA KEBERSIHAN</h5>
+          <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  
+        </div>
+      </div>
+      <div class="card mx-4 scroll" style="width: 18rem;">
+        <img class="card-imgtop" src="https://images.unsplash.com/photo-1586810165616-94c631fc2f79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JAGA KEAMANAN</h5>
+          <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  
+        </div>
+      </div>
+    </div>
+  
+      <br>
+      <h3>Kunjungi Perpustakaan kami di: </h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1350320383776!2d110.41304270574608!3d-7.780808838571881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59f1d2361f71%3A0x4a2ce83adbcfd5aa!2sPerpustakaan%20Universitas%20Atma%20Jaya%20Yogyakarta!5e0!3m2!1sid!2sid!4v1633610599589!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br>
+    
+  <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p><center> Copyright © 2021 by Pemrograman Web UAJY </center>
+              <br>Design:Kelompok 8 
+              <br>AHL, EP, MES, NI</center> </p>
+            </div>
+          </div>
+        </div>
   </center>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
