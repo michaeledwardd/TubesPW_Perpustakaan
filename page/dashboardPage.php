@@ -10,7 +10,7 @@
                     <div class="card-body">
                         <h5 class="card-title">SPRINT</h5>
                         <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        
                     </div>
                 </div>
                 <div class="card mx-4" style="width: 18rem;">
@@ -18,7 +18,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Problem Solving 101</h5>
                     <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -26,7 +26,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Don't Make Me Think!</h5>
                     <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    
                 </div>
             </div>
         </div>
