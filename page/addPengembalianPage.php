@@ -20,7 +20,7 @@
                 <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku">
                     <option>
                     <?php
-                        $query = mysqli_query($con, "SELECT judulBuku FROM buku ORDER BY id");
+                        $query = mysqli_query($con, "SELECT judulBuku FROM buku WHERE status='Not Available' ORDER BY id");
                         while($cek = mysqli_fetch_assoc($query))
                         {
                             if($cek['judulBuku']===TRUE)
@@ -36,9 +36,14 @@
                     </option>
                 </select>
             </div>
+            
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Status Pengembalian</label>
-                <input class="form-control" id="statusPengembalian" name="statusPengembalian" aria-describedby="emailHelp">
+                <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian">
+                    <option value="Sudah">Sudah</option>
+                    <option value="Belum">Belum</option>
+                    
+                </select>
             </div>
 
             <div class="d-grid gap-2">

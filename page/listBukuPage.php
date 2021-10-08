@@ -8,6 +8,7 @@ include '../component/sidebar.php'
         <thead>
             <tr>
                 <th scope="col">No</th>
+                <th scope="col">ISBN</th>
                 <th scope="col">Judul Buku</th>
                 <th scope="col">Pengarang</th>
                 <th scope="col">Tahun terbit</th>
@@ -27,9 +28,11 @@ include '../component/sidebar.php'
                     echo '
                         <tr>
                         <th scope="row">' . $no . '</th>
+                        <td>' . $data['isbn'] . '</td>
                         <td>' . $data['judulBuku'] . '</td>
                         <td>' . $data['pengarang'] . '</td>
                         <td>' . $data['tahunTerbit'] . '</td>
+                       
                         <td>' . $data['status'] . '</td>
                         <td>
                         <a href="../page/editBukuPage.php?id=' . $data['id'] . '"

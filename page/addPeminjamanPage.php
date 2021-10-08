@@ -21,7 +21,7 @@ include '../component/sidebar.php'
             <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku">
                 <option>
                     <?php
-                    $query = mysqli_query($con, "SELECT judulBuku FROM buku ORDER BY id");
+                    $query = mysqli_query($con, "SELECT judulBuku FROM buku WHERE status='Available' ORDER BY id");
                     while ($cek = mysqli_fetch_assoc($query)) {
                         if ($cek['judulBuku'] === TRUE) {
                             echo '<option value="', $cek['judulBuku'] . '" selected >' . $cek['judulBuku'] . '</option';

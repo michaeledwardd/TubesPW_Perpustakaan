@@ -11,6 +11,7 @@ include '../component/sidebar.php'
                 <th scope="col">Nama </th>
                 <th scope="col">Nomor Identitas </th>
                 <th scope="col">Jenis Kelamin</th>
+                <th scope="col">Username</th>
                 <th scope="col">Aksi</th>
             </tr>
         </thead>
@@ -29,12 +30,13 @@ include '../component/sidebar.php'
                         <td>' . $data['namaPengguna'] . '</td>
                         <td>' . $data['nomorIdentitas'] . '</td>
                         <td>' . $data['jenisKelamin'] . '</td>
+                        <td>' . $data['username'] . '</td>
                         <td>
-                        <a href="../page/editBukuPage.php?id=' . $data['id'] . '"
+                        <a href="../page/editUserPage.php?id=' . $data['id'] . '"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: green" class="fa fa-edit"></i></a>
 
-                        <a href="../process/deleteBukuprocess.php?id=' . $data['id'] . '"
+                        <a href="../process/deleteUserprocess.php?id=' . $data['id'] . '"
                         onClick="return confirm ( \'Yakin?\')">
                         <i style="color: red" class="fa fa-trash"></i>
                         

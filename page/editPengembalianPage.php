@@ -47,7 +47,11 @@ $data = mysqli_fetch_assoc($query);
             <!-- Sampai sini masih diragukan -->
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Status Pengembalian</label>
-                <input class="form-control" id="statusPengembalian" name="statusPengembalian" aria-describedby="emailHelp" value="<?php echo $data['statusPengembalian']; ?>">
+                <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian">
+                    <option value="Sudah">Sudah</option>
+                    <option value="Belum">Belum</option>
+                    
+                </select>
             </div>
             
             

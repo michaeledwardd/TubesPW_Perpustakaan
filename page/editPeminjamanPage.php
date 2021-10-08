@@ -11,7 +11,7 @@ $data = mysqli_fetch_assoc($query);
 
 <div class="container p-3 m-4 h-100"
     style="background-color: #FFFFFF; border-top: 5px solid #17337A; boxshadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-    <h4>EDIT DATA PENGEMBALIAN</h4>
+    <h4>EDIT DATA PEMINJAMAN</h4>
     <hr>
     <form action="../process/editPeminjamanProcess.php?id=$id" method="post">
         <input type="hidden" name="id" value="<?= $data['id']; ?>">
@@ -31,7 +31,7 @@ $data = mysqli_fetch_assoc($query);
             <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku">
                 <option>
                     <?php
-                    $query = mysqli_query($con, "SELECT judulBuku FROM buku ORDER BY id");
+                    $query = mysqli_query($con, "SELECT judulBuku FROM buku WHERE status='Available' ORDER BY id");
                     while ($cek = mysqli_fetch_assoc($query)) {
                         if ($cek['judulBuku'] === TRUE) {
                             echo '<option value="', $cek['judulBuku'] . '" selected >' . $cek['judulBuku'] . '</option';

@@ -5,7 +5,7 @@ include '../component/sidebar.php'
 
 <div class="container p-3 m-4 h-100"
     style="background-color: #FFFFFF; border-top: 5px solid #17337A; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-    <h4>TAMBAH Buku</h4>
+    <h4>TAMBAH BUKU</h4>
     <hr>
     <form action="../process/createBukuProcess.php" method="post">
         <div class="mb-3">
@@ -23,13 +23,17 @@ include '../component/sidebar.php'
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Tahun Terbit</label>
-            <input class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp">
+            <input  class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp">
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Status (Tersedia / tidak)</label>
-            <input class="form-control" id="status" name="status" aria-describedby="emailHelp">
-        </div>
+                <label for="exampleInputEmail1" class="form-label">Status Buku</label>
+                <select class="form-select" aria-label="Default select example" name="status" id="status">
+                    <option value="Available">Available</option>
+                    <option value="Not Available">Not Available</option>
+                    
+                </select>
+            </div>
 
         <div class="d-grid gap-2">
             <button type="submit" class="btn btn-primary" name="tambahBuku">Tambah Buku</button>

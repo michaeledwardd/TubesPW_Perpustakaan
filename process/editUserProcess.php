@@ -1,28 +1,30 @@
 <?php
-if (isset($_POST['update'])) {
+if (isset($_POST['editUser'])) {
     // Menangkap Variabel yang diterima dari form edit
     include('../db.php');
     $id  =  $_POST['id'];
+    $namaPengguna = $_POST['namaPengguna'];
+    $jenisKelamin  =  $_POST['jenisKelamin'];
+    $nomorIdentitas  =  $_POST['nomorIdentitas'];
     $username  =  $_POST['username'];
-    $name  =  $_POST['name'];
-    $npm  =  $_POST['npm'];
-    $prodi =  $_POST['prodi'];
+    $password =  $_POST['password'];
     
     $queryUpdate  =  mysqli_query($con, 
     "UPDATE users set   
+        namaPengguna = '$namaPengguna',
+        jenisKelamin = '$jenisKelamin',
+        nomorIdentitas = '$nomorIdentitas',
         username = '$username',
-        name = '$name',
-        npm = '$npm',
-        prodi = '$prodi'
+        password = '$password'
         WHERE id='$id'");
     if ($queryUpdate) {
         echo '<script>
-        alert("Update Success"); window.location = "../page/listMahasiswaPage.php"
+        alert("Update Success"); window.location = "../page/listUserPage.php"
         </script>';
     } else {
         echo
         '<script>
-        alert("Update Failed"); window.location = "../page/listMahasiswaPage.php"
+        alert("Update Failed"); window.location = "../page/listUserPage.php"
         </script>';
     }
 } else {
