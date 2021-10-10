@@ -5,12 +5,12 @@ if (isset($_GET['id'])) {
     $queryDelete  =  mysqli_query($con, "DELETE  FROM  users  WHERE  id='$id'")  or  die(mysqli_error($con));
     if ($queryDelete) {
         echo '<script>
-        alert("Delete Success"); window.location = "../page/listMahasiswaPage.php"
+        alert("Delete Success"); window.location = "../page/listUserPage.php"
         </script>';
     } else {
         echo
         '<script>
-        alert("Delete Failed"); window.location = "../page/listMahasiswaPage.php"
+        alert("Delete Failed"); window.location = "../page/listUserPage.php"
         </script>';
     }
 } else {

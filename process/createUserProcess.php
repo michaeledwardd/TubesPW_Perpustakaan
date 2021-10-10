@@ -22,7 +22,7 @@ or die(mysqli_error($con)); // perintah mysql yang gagal dijalankan di- tangani 
 
 if($query){ echo
 '<script>
-alert("Register  Success");  window.location  = "../page/listMahasiswaPage.php"
+alert("Register  Success");  window.location  = "../page/listUserPage.php"
 </script>';
 }else{
 echo
