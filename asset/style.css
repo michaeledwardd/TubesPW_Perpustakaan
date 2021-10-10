@@ -10,6 +10,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.scroll{
+  max-height: 100px;
+  overflow-y: auto;
+}
+
 .navbar-brand {
     font-family: 'Merriweather', serif;
   }

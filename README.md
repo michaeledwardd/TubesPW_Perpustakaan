@@ -24,6 +24,5 @@ Projek kelompok ini bertujuan untuk melihat kemampuan mahasiswa dalam membangun 
 4.	Aplikasi ditambahkan fitur geolocation (harus relevan dengan permasalahan yang ada dan tidak
 5.	dipaksakan ada).
 6.	Aplikasi backend mampu mengenerate report data transaksi dalam bentuk PDF.
-7.	Aplikasi frontend mampu mendeteksi jika username/email sudah dipakai pada saat pengguna
-8.	melakukan registrasi.
-9.	6. Aplikasi memiliki fitur untuk menambah/mengupdate photo profile pengguna.
+7.	Aplikasi frontend mampu mendeteksi jika username/email sudah dipakai pada saat pengguna melakukan registrasi.
+8. Aplikasi memiliki fitur untuk menambah/mengupdate photo profile pengguna.
