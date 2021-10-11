@@ -6,6 +6,7 @@ if (isset($_POST['editUser'])) {
     $namaPengguna = $_POST['namaPengguna'];
     $jenisKelamin  =  $_POST['jenisKelamin'];
     $nomorIdentitas  =  $_POST['nomorIdentitas'];
+    $email = $_POST['email'];
     $username  =  $_POST['username'];
     $password =  $_POST['password'];
     
@@ -14,6 +15,7 @@ if (isset($_POST['editUser'])) {
         namaPengguna = '$namaPengguna',
         jenisKelamin = '$jenisKelamin',
         nomorIdentitas = '$nomorIdentitas',
+        email = '$email',
         username = '$username',
         password = '$password'
         WHERE id='$id'");

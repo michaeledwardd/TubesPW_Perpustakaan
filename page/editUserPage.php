@@ -40,6 +40,11 @@ $data = mysqli_fetch_assoc($query);
             <input type="text" class="form-control" id="username" name="username"
                 aria-describedby="emailHelp" value="<?php echo $data['username']; ?>">
         </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" name="email"
+                aria-describedby="emailHelp" value="<?php echo $data['email']; ?>">
+        </div>
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Password</label>
