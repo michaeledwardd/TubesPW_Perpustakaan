@@ -75,49 +75,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
-
-  <!-- carouselExampleIndicators  -->
-
-  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      
-      <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1548048026-5a1a941d93d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80')">
-        <div class="carousel-caption d-none d-md-block bgColor">
-          <h2 class="display-4">PERPUSTAKAAN KITA</h2>
-          <p class="lead">Menyediakan buku berkualitas dan terbaru</p>
-        </div>
-      </div>
-      
-      <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1549675584-91f19337af3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80')">
-        <div class="carousel-caption d-none d-md-block bgColor">
-          <h2 class="display-4">PERPUSTAKAAN KITA</h2>
-          <p class="lead">Jalan Babarsari nomor 32 Sleman Yogyakarta</p>
-        </div>
-      </div>
-      
-      <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1577985051167-0d49eec21977?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80')">
-        <div class="carousel-caption d-none d-md-block bgColor">
-          <h2 class="display-4">PERPUSTAKAAN KITA</h2>
-          <p class="lead">Cepat, Mudah, dan Instan</p>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div> -->
-
+  </div>\
   <br>
 
   <!-- informasi perpustakaan -->
@@ -161,7 +119,6 @@
             <h5 class="card-title">JAGA KEAMANAN</h5>
             <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-    
           </div>
         </div>
       </div>

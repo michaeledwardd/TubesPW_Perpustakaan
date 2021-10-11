@@ -12,6 +12,7 @@ include '../component/sidebar.php'
                 <th scope="col">Nomor Identitas </th>
                 <th scope="col">Jenis Kelamin</th>
                 <th scope="col">Username</th>
+                <th scope="col">Email</th>
                 <th scope="col">Aksi</th>
             </tr>
         </thead>
@@ -31,6 +32,7 @@ include '../component/sidebar.php'
                         <td>' . $data['nomorIdentitas'] . '</td>
                         <td>' . $data['jenisKelamin'] . '</td>
                         <td>' . $data['username'] . '</td>
+                        <td>' . $data['email'] . '</td>
                         <td>
                         <a href="../page/editUserPage.php?id=' . $data['id'] . '"
                         onClick="return confirm ( \'Yakin?\')">
