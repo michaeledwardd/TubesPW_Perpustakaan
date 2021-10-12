@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://images.unsplash.com/photo-1577985051167-0d49eec21977?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80" class="d-block w-100" alt="...">
+        <img src="https://images.unsplash.com/photo-1593672572837-d1bb82b59370?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block bgColor">
           <h2 class="display-4">PERPUSTAKAAN KITA</h2>
           <p class="lead">Cepat, Mudah, dan Instan</p>
