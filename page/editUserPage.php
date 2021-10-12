@@ -48,7 +48,7 @@ $data = mysqli_fetch_assoc($query);
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Password</label>
-            <input type="text" class="form-control" id="password" name="password"
+            <input type="password" class="form-control" id="password" name="password"
                 aria-describedby="emailHelp" value="<?php echo $data['password']; ?>">
         </div>
 

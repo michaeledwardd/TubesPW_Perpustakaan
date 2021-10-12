@@ -36,8 +36,8 @@
                 <div class="card-body">
                     <form action="../process/loginProcess.php" method="post">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Username</label>
-                            <input class="form-control" id="namaPengguna" name="namaPengguna" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input class="form-control" id="email" name="email" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
