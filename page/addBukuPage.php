@@ -10,25 +10,25 @@ include '../component/sidebar.php'
     <form action="../process/createBukuProcess.php" method="post">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nomer ISBN</label>
-            <input class="form-control" id="isbn" name="isbn" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="isbn" name="isbn" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nama Pengarang</label>
-            <input class="form-control" id="pengarang" name="pengarang" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="pengarang" name="pengarang" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Judul Buku</label>
-            <input class="form-control" id="judulBuku" name="judulBuku" aria-describedby="emailHelp">
+            <input class="form-control" id="judulBuku" name="judulBuku" aria-describedby="emailHelp" required>
         </div>
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Tahun Terbit</label>
-            <input  class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp">
+            <input  class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp" required>
         </div>
 
         <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Status Buku</label>
-                <select class="form-select" aria-label="Default select example" name="status" id="status">
+                <select class="form-select" aria-label="Default select example" name="status" id="status" required>
                     <option value="Available">Available</option>
                     <option value="Not Available">Not Available</option>
                     

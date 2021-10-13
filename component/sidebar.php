@@ -63,7 +63,7 @@
         <div class="d-flex">
             <div class="side-bar">
             <hr>
-                <a class="navbar-brand fw-bold" href="\Tubes_PW\TubesPW_Perpustakaan">
+                <a class="navbar-brand fw-bold" href="../page/dashboardPage.php">
                     <img src="../asset/icon/logo.svg" alt="Logo PerpustakanKu">
                 </a>
             <hr>

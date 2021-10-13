@@ -86,7 +86,7 @@
       </h1>
     
       <div class="d-flex">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 25rem;">
           <img class="card-imgtop" src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">WAJIB BAWA KARTU</h5>
@@ -95,7 +95,7 @@
     
           </div>
         </div>
-        <div class="card mx-4" style="width: 18rem;">
+        <div class="card mx-4" style="width: 25rem;">
           <img class="card-imgtop" src="https://media.istockphoto.com/photos/can-you-keep-a-secret-picture-id1071323224?b=1&k=20&m=1071323224&s=170667a&w=0&h=Ohhkw79tBMATMYxXt8N9SDvulL9k9vplnuX2fw_OF5A=" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">JAGA KETENANGAN</h5>
@@ -104,7 +104,7 @@
     
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 25rem;">
           <img class="card-imgtop" src="https://images.unsplash.com/photo-1586810165616-94c631fc2f79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">JAGA KEBERSIHAN</h5>
@@ -113,7 +113,7 @@
     
           </div>
         </div>
-        <div class="card mx-4" style="width: 18rem;">
+        <div class="card mx-4" style="width: 25rem;">
           <img class="card-imgtop" src="https://images.unsplash.com/photo-1586810165616-94c631fc2f79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">JAGA KEAMANAN</h5>

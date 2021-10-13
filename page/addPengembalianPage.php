@@ -9,15 +9,15 @@
         <form action="../process/createPengembalianProcess.php" method="post">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nama Peminjam</label>
-                <input class="form-control" id="namaPeminjam" name="namaPeminjam" aria-describedby="emailHelp">
+                <input class="form-control" id="namaPeminjam" name="namaPeminjam" aria-describedby="emailHelp" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nomor identitas</label>
-                <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp">
+                <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Judul Buku</label>
-                <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku">
+                <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku" required>
                     <option>
                     <?php
                         $query = mysqli_query($con, "SELECT judulBuku FROM buku WHERE status='Not Available' ORDER BY id");
@@ -39,7 +39,8 @@
             
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Status Pengembalian</label>
-                <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian">
+                <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian" required>
+                    <option value=""> </option>
                     <option value="Sudah">Sudah</option>
                     <option value="Belum">Belum</option>
                     

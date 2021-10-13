@@ -10,15 +10,15 @@ include '../component/sidebar.php'
     <form action="../process/createPeminjamanProcess.php" method="post">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nama Peminjam</label>
-            <input class="form-control" id="namaPeminjam" name="namaPeminjam" aria-describedby="emailHelp">
+            <input class="form-control" id="namaPeminjam" name="namaPeminjam" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nomor identitas</label>
-            <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp">
+            <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Judul Buku</label>
-            <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku">
+            <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku" required>
                 <option>
                     <?php
                     $query = mysqli_query($con, "SELECT judulBuku FROM buku WHERE status='Available' ORDER BY id");
@@ -36,12 +36,12 @@ include '../component/sidebar.php'
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Tanggal Peminjaman</label>
             <input type="date" class="form-control" id="tanggalPeminjaman" name="tanggalPeminjaman"
-                aria-describedby="emailHelp">
+                aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Tanggal Pengembalian</label>
             <input type="date" class="form-control" id="tanggalPengembalian" name="tanggalPengembalian"
-                aria-describedby="emailHelp">
+                aria-describedby="emailHelp" required>
         </div>
 
         <div class="d-grid gap-2">
