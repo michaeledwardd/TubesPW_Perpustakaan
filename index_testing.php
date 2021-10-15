@@ -24,7 +24,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <div class="logo">
-        <a class="navbar-brand fw-bold" href="\Tubes_PW\TubesPW_Perpustakaan">
+        <a class="navbar-brand fw-bold" >
           <img src="asset/icon/logo.svg" alt="Logo PerpustakanKu">
         </a>
       </div>
@@ -108,15 +108,12 @@
   <!-- Buku Kami -->
   <section class="py-5">
             <div class="container px-4 px-lg-5">
-            <h1 class="section-heading text-uppercase mb-4 text-center">Buku Kami</h1>
+            <h1 class="section-heading text-uppercase mb-4 text-center">Top Book of the week</h1>
                 <div class="row gx-4 gx-lg-5 align-items-center mb-5">
                     <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://images-na.ssl-images-amazon.com/images/I/41c62f1VaYL._SX258_BO1,204,203,200_.jpg" alt="..." /></div>
                     <div class="col-md-6">
                         <h1 class="display-5 fw-bolder">UI/UX Design Sketchbook</h1>
-                        <div class="fs-5 mb-5">
-                            <span class="text-decoration-line-through">Rp.95.000.00</span>
-                            <span>Rp.55.000.00</span>
-                        </div>
+                        
                         <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
                         <div class="d-flex">
                         </div>
@@ -125,10 +122,7 @@
                 <div class="row gx-4 gx-lg-5 align-items-center mb-5">
                   <div class="col-md-6">
                       <h1 class="display-5 fw-bolder">Bootstrap 4: Designing Awesome Responsive Website</h1>
-                      <div class="fs-5 mb-5">
-                          <span class="text-decoration-line-through">Rp.125.000.00</span>
-                          <span>Rp.100.000.00</span>
-                      </div>
+                      
                       <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
                       <div class="d-flex">
                       </div>
@@ -142,7 +136,7 @@
   <!-- Carousel -->
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="container">
-    <h1 class="section-heading text-uppercase mb-4 text-center">Gallery</h1>
+    <h1 class="section-heading text-uppercase mb-4 text-center">PerpustakaanKita Gallery</h1>
 
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -158,6 +152,13 @@
     </div>
 </div>
   <!-- Carousel End -->
+
+  <br>
+  <center>
+    <h3>Kunjungi Perpustakaan kami di: </h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1350320383776!2d110.41304270574608!3d-7.780808838571881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59f1d2361f71%3A0x4a2ce83adbcfd5aa!2sPerpustakaan%20Universitas%20Atma%20Jaya%20Yogyakarta!5e0!3m2!1sid!2sid!4v1633610599589!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </center>
+      <br>
   
   <!-- Footer -->
   <div class="bg-dark text-light text-center mt-5">

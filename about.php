@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <div class="logo">
-                <a class="navbar-brand fw-bold" href="\Tubes_PW\TubesPW_Perpustakaan">
+                <a class="navbar-brand fw-bold" >
                     <img src="asset/icon/logo.svg" alt="Logo PerpustakanKu">
                 </a>
             </div>
@@ -68,7 +68,7 @@
                     <div class="card-body">
                         <img class="rounded-circle mb-2" width="100px" src="https://www.kindpng.com/picc/m/106-1068191_transparent-avatar-clipart-hd-png-download.png" alt="">
                         <h5 class="card-title">Michael Edward Setiawan</h5>
-                        <p class="card-text"> NPM | ... Developer.</p>
+                        <p class="card-text"> 190710093 | Backend Developer.</p>
                     </div>
                 </div>
             </div>
