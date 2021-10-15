@@ -16,16 +16,16 @@ $data = mysqli_fetch_assoc($query);
        <input type="hidden" name="id" value="<?= $data['id'];?>">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nama Peminjam</label>
-                <input class="form-control" id="namaPeminjam" name="namaPeminjam" aria-describedby="emailHelp" value="<?php echo $data['namaPeminjam']; ?>">
+                <input class="form-control" id="namaPeminjam" name="namaPeminjam" aria-describedby="emailHelp" value="<?php echo $data['namaPeminjam']; ?>" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nomor Identitas</label>
-                <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" value="<?php echo $data['nomorIdentitas']; ?>">
+                <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" value="<?php echo $data['nomorIdentitas']; ?>" required>
             </div>
             <!--Masih diragukan code ini -->
             <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Judul Buku</label>
-            <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku"> 
+            <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku" required> 
             <option>
                     <?php
                         $query = mysqli_query($con, "SELECT judulBuku FROM buku ORDER BY id");
@@ -47,7 +47,8 @@ $data = mysqli_fetch_assoc($query);
             <!-- Sampai sini masih diragukan -->
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Status Pengembalian</label>
-                <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian">
+                <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian" required>
+                    <option value=""></option>
                     <option value="Sudah">Sudah</option>
                     <option value="Belum">Belum</option>
                     

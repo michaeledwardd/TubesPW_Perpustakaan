@@ -16,26 +16,31 @@ $data = mysqli_fetch_assoc($query);
         <input type="hidden" name="id" value="<?= $data['id']; ?>">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nomer ISBN</label>
-            <input class="form-control" id="isbn" name="isbn" aria-describedby="emailHelp" value="<?php echo $data['isbn']; ?>">
+            <input class="form-control" id="isbn" name="isbn" aria-describedby="emailHelp" value="<?php echo $data['isbn']; ?>" required >
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nama Pengarang</label>
-            <input class="form-control" id="pengarang" name="pengarang" aria-describedby="emailHelp" value="<?php echo $data['pengarang']; ?>">
+            <input class="form-control" id="pengarang" name="pengarang" aria-describedby="emailHelp" value="<?php echo $data['pengarang']; ?>" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Judul Buku</label>
-            <input class="form-control" id="judulBuku" name="judulBuku" aria-describedby="emailHelp" value="<?php echo $data['judulBuku']; ?>">
+            <input class="form-control" id="judulBuku" name="judulBuku" aria-describedby="emailHelp" value="<?php echo $data['judulBuku']; ?>" required>
         </div>
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Tahun Terbit</label>
-            <input class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp" value="<?php echo $data['tahunTerbit']; ?>">
+            <input class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp" value="<?php echo $data['tahunTerbit']; ?>" required>
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Status</label>
-            <input class="form-control" id="status" name="status" aria-describedby="emailHelp" value="<?php echo $data['status']; ?>">
-        </div>
+                <label for="exampleInputEmail1" class="form-label">Status Buku</label>
+                <select class="form-select" aria-label="Default select example" name="status" id="status" required>
+                    <option value=""></option>
+                    <option value="Available">Available</option>
+                    <option value="Not Available">Not Available</option>
+                    
+                </select>
+            </div>
 
         <div class="d-grid gap-2">
             <button type="submit" class="btn btn-primary" name="editBuku">EditBuku</button>
