@@ -66,9 +66,9 @@
             <div class="col-sm-3 mt-4">
                 <div class="card">
                     <div class="card-body">
-                        <img class="rounded-circle mb-2" width="100px" src="https://www.kindpng.com/picc/m/106-1068191_transparent-avatar-clipart-hd-png-download.png" alt="">
+                        <img class="rounded-circle mb-2" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Me_bank_logo15.png" alt="">
                         <h5 class="card-title">Michael Edward Setiawan</h5>
-                        <p class="card-text"> 190710093 | Backend Developer.</p>
+                        <p class="card-text"> 190710093 | Mahasiswa Informatika</p>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                     <div class="card-body">
                         <img class="rounded-circle mb-2" width="100px" src="https://www.kindpng.com/picc/m/106-1068191_transparent-avatar-clipart-hd-png-download.png" alt="">
                         <h5 class="card-title">Effendi Prakoso</h5>
-                        <p class="card-text"> NPM | ... Developer.</p>
+                        <p class="card-text"> 190710301 | Mahasiswa Informatika.</p>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     <div class="card-body">
                         <img class="rounded-circle mb-2" width="100px" src="https://www.kindpng.com/picc/m/106-1068191_transparent-avatar-clipart-hd-png-download.png" alt="">
                         <h5 class="card-title">Noval Izra Khadavi</h5>
-                        <p class="card-text"> NPM | ... Developer.</p>
+                        <p class="card-text"> 190710471 | Mahasiswa Informatika</p>
                     </div>
                 </div>
             </div>
