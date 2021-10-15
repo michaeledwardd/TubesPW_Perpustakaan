@@ -14,7 +14,8 @@
             $query = mysqli_query($con,$sql);
             if($query)
             {
-                echo "VERIFIKASI BERHASIL silahkan masuk ke login ";
+                echo "VERIFIKASI BERHASIL  ";
+              
             }
             else
             {
