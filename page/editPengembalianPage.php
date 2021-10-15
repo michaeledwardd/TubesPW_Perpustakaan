@@ -22,29 +22,29 @@ $data = mysqli_fetch_assoc($query);
                 <label for="exampleInputEmail1" class="form-label">Nomor Identitas</label>
                 <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" value="<?php echo $data['nomorIdentitas']; ?>" required>
             </div>
-            <!--Masih diragukan code ini -->
-            <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Judul Buku</label>
-            <select class="form-select" aria-label="Default select example" name="judulBuku" id="judulBuku" required> 
-            <option>
-                    <?php
-                        $query = mysqli_query($con, "SELECT judulBuku FROM buku ORDER BY id");
-                        while($cek = mysqli_fetch_assoc($query))
-                        {
-                            if($cek['judulBuku']===TRUE)
-                            {
-                               echo '<option value="',$cek['judulBuku'].'" selected >'.$cek['judulBuku']. '</option';
+            
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mb-3">
+                        <label for="judulBuku" class="form-label">Judul Buku</label>
+                        <select class="form-select" id="judulBuku" name="judulBuku" aria-label="Default select example" value="<?php echo $data['judulBuku']; ?>">
+                        <?php 
+                            $query = mysqli_query($con, "SELECT judulBuku FROM buku WHERE status='Not Available' ORDER BY id ");
+                            while($cek = mysqli_fetch_assoc($query)){
+
+                                if($row['buku'] == $cek['judulBuku']){
+                                    echo '<option value="'.$cek['judulBuku'].'" selected>'.$cek['judulBuku'].'</option>';
+                                } else {
+                                    echo '<option value="'.$cek['judulBuku'].'">'.$cek['judulBuku'].'</option>';
+                                }
                             }
-                            else
-                            {
-                                echo '<option value="'.$cek['judulBuku'].'">'.$cek['judulBuku']. '</option>';
-                            }
-                        }
-                    ?>
-                    </option>
-            </select>
+                        ?>
+                        </select>
+                    </div>
+                </div>
             </div>
-            <!-- Sampai sini masih diragukan -->
+
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Status Pengembalian</label>
                 <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian" required>
