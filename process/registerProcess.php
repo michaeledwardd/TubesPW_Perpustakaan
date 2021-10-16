@@ -23,7 +23,9 @@
     $sql = "SELECT * FROM users where email='$email'";
     $query = mysqli_query($con,$sql);
     if(mysqli_num_rows($query) > 0){
-        echo '<script>alert("Email sudah terdaftar");</script>';
+        echo '<script>alert("Email sudah terdaftar");
+        window.location.href = "http://www.perpustakaankita.com/page/registerPage.php"
+        </script>';
     }else {
         $sql = "INSERT INTO users (namaPengguna,nomorIdentitas,jenisKelamin,email,username,password,verif_code)VALUES('$namaPengguna','$nomorIdentitas','$jenisKelamin','$email','$username','$password','$code')";
         $query = mysqli_query($con,$sql);
