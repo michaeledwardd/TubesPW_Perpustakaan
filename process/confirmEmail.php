@@ -14,7 +14,10 @@
             $query = mysqli_query($con,$sql);
             if($query)
             {
-                echo "VERIFIKASI BERHASIL  ";
+                echo "VERIFIKASI BERHASIL";
+                echo '<script>alert("Klik Ok unuk kembali kehalama login");
+                window.location.href = "../page/loginPage.php"
+                 </script>';
               
             }
             else

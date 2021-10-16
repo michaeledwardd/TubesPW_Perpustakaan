@@ -7,8 +7,9 @@
     $query = mysqli_query($con,$sql);
 
     if(mysqli_num_rows($query) == 0 ){
-        echo '<script>alert("Email belum diverifikasi");</script>';
-        header("location: ../page/loginPage.php");
+        echo '<script>alert("Email belum diverifikasi");
+        window.location.href=" ../page/loginPage.php";
+            </script>';
     }else {
         $user = mysqli_fetch_assoc($query);
         if(password_verify($password,$user['password'])){
@@ -16,15 +17,20 @@
                 session_start();
                 $_SESSION['isLogin'] = true;
                 $_SESSION['user'] = $user;
-    
-                header("location: ../page/dashboardPage.php");
+    			
+		
+               header("location: ../page/dashboardPage.php");
+               exit;
             }else {
-                echo '<script>alert("Silahkan verifikasi email dahulu");</script>';
-                header("location: ../page/loginPage.php");
+                echo '<script>alert("Silahkan verifikasi email dahulu");
+                window.location.href="../page/loginPage.php";
+            </script>';
             }
         }else {
-            echo '<script>alert("Passwordnya salah");</script>';
-            header("location: ../page/loginPage.php");
+            echo '<script>alert("Passwordnya salah");
+            window.location.href="../page/loginPage.php";
+            </script>';
+            
         }
     }
 ?>
