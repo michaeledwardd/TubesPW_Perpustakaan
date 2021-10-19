@@ -20,7 +20,7 @@ $data = mysqli_fetch_assoc($query);
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nomor Identitas</label>
-                <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" value="<?php echo $data['nomorIdentitas']; ?>" required>
+                <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" value="<?php echo $data['nomorIdentitas']; ?>" required pattern="[0-9]{5,7}">
             </div>
             
 

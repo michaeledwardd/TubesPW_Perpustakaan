@@ -40,7 +40,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nomor Identitas</label>
-                            <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" required>
+                            <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" required pattern="[0-9]{5,7}">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Username</label>
-                            <input class="form-control" id="username" name="username" aria-describedby="emailHelp" required>
+                            <input class="form-control" id="username" name="username" aria-describedby="emailHelp" required >
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>

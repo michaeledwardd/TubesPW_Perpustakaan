@@ -16,7 +16,7 @@ $data = mysqli_fetch_assoc($query);
         <input type="hidden" name="id" value="<?= $data['id']; ?>">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nomer ISBN</label>
-            <input class="form-control" id="isbn" name="isbn" aria-describedby="emailHelp" value="<?php echo $data['isbn']; ?>" required >
+            <input class="form-control" id="isbn" name="isbn" aria-describedby="emailHelp" value="<?php echo $data['isbn']; ?>" required pattern="[0-9]{3,5}">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nama Pengarang</label>
@@ -29,7 +29,7 @@ $data = mysqli_fetch_assoc($query);
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Tahun Terbit</label>
-            <input class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp" value="<?php echo $data['tahunTerbit']; ?>" required>
+            <input class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp" value="<?php echo $data['tahunTerbit']; ?>" required pattern="[0-9]{4}">
         </div>
 
         <div class="mb-3">

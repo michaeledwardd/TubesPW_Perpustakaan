@@ -10,7 +10,7 @@ include '../component/sidebar.php'
     <form action="../process/createBukuProcess.php" method="post">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nomer ISBN</label>
-            <input type="number" class="form-control" id="isbn" name="isbn" aria-describedby="emailHelp" required>
+            <input type="tel" class="form-control" id="isbn" name="isbn" aria-describedby="emailHelp" required pattern="[0-9]{3,5}">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nama Pengarang</label>
@@ -23,7 +23,7 @@ include '../component/sidebar.php'
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Tahun Terbit</label>
-            <input  class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp" required>
+            <input  class="form-control" id="tahunTerbit" name="tahunTerbit" aria-describedby="emailHelp" required pattern="[0-9]{4}">
         </div>
 
         <div class="mb-3">

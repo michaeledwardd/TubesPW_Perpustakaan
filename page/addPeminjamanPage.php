@@ -14,7 +14,7 @@ include '../component/sidebar.php'
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nomor identitas</label>
-            <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" required>
+            <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp" required pattern="[0-9]{5,7}">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Judul Buku</label>
