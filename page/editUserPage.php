@@ -18,12 +18,12 @@ $data = mysqli_fetch_assoc($query);
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nama Pengguna</label>
             <input class="form-control" id="namaPeminjam" name="namaPengguna" aria-describedby="emailHelp"
-                value="<?php echo $data['namaPengguna']; ?>">
+                value="<?php echo $data['namaPengguna']; ?>" required >
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nomor Identitas</label>
             <input class="form-control" id="nomorIdentitas" name="nomorIdentitas" aria-describedby="emailHelp"
-                value="<?php echo $data['nomorIdentitas']; ?>">
+                value="<?php echo $data['nomorIdentitas']; ?>" required pattern="[0-9]{5,7}">
         </div>
         <!--Masih diragukan code ini -->
         <div class="mb-3">
@@ -38,12 +38,12 @@ $data = mysqli_fetch_assoc($query);
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Username</label>
             <input type="text" class="form-control" id="username" name="username"
-                aria-describedby="emailHelp" value="<?php echo $data['username']; ?>">
+                aria-describedby="emailHelp" value="<?php echo $data['username']; ?>" disabled>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email</label>
             <input type="text" class="form-control" id="email" name="email"
-                aria-describedby="emailHelp" value="<?php echo $data['email']; ?>">
+                aria-describedby="emailHelp" value="<?php echo $data['email']; ?>" disabled>
         </div>
 
         <div class="mb-3">

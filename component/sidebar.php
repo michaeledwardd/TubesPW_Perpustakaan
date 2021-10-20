@@ -133,16 +133,14 @@
                 <a href="./listUserPage.php" style="font-weight:600">My profile</a>
                 </div>
 
-                
-
                 <div class="content-menu " >
                     <i class="fa fa-plus-square"></i>
-                    <a href="./addPeminjamanPage.php" style="font-weight:600">Tambah Peminjam</a>
+                    <a href="./addPeminjamanPage.php" style="font-weight:600">Pinjam Buku</a>
                 </div>
 
                 <div class="content-menu " >
                     <i class="fa fa-plus-square"></i>
-                    <a href="./addPengembalianPage.php" style="font-weight:600">Tambah Pengembalian</a>
+                    <a href="./addPengembalianPage.php" style="font-weight:600">Kembalikan Buku</a>
                 </div>
 
                 <div class="content-menu " >

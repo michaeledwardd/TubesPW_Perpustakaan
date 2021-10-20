@@ -5,7 +5,7 @@ if (isset($_GET['id'])) {
     $queryDelete  =  mysqli_query($con, "DELETE  FROM  users  WHERE  id='$id'")  or  die(mysqli_error($con));
     if ($queryDelete) {
         echo '<script>
-        alert("Delete Success"); window.location = "../page/listUserPage.php"
+        alert("Delete Success and Leave"); window.location = "../index.php"
         </script>';
     } else {
         echo
