@@ -82,8 +82,6 @@
                 <?php
                     if($email==$email2)
                     {
-
-                    
                 ?>
                 <div class="content-menu " >
                 <i class="fa fa-list"></i>
