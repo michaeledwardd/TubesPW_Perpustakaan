@@ -17,7 +17,7 @@
                 session_start();
                 $_SESSION['isLogin'] = true;
                 $_SESSION['user'] = $user;
-    			
+                $_SESSION['email'] = $email;
 		
                header("location: ../page/dashboardPage.php");
                exit;

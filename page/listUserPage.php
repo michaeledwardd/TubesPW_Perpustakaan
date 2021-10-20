@@ -2,12 +2,11 @@
 include '../component/sidebar.php'
 ?>
 <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #17337A; boxshadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-    <h4>Daftar PENGGUNA</h4>
+    <h4>Profilku</h4>
     <hr>
     <table class="table ">
         <thead>
             <tr>
-                <th scope="col">No</th>
                 <th scope="col">Nama </th>
                 <th scope="col">Nomor Identitas </th>
                 <th scope="col">Jenis Kelamin</th>
@@ -18,7 +17,9 @@ include '../component/sidebar.php'
         </thead>
         <tbody>
             <?php
-            $query = mysqli_query($con, "SELECT * FROM users") or die(mysqli_error($con));
+            
+            $email = $_SESSION['email'];
+            $query = mysqli_query($con, "SELECT * FROM users WHERE email='$email'") or die(mysqli_error($con));
 
             if (mysqli_num_rows($query) == 0) {
                 echo '<tr> <td colspan="7"> Pengguna tidak tersedia </td> </tr>';
@@ -27,7 +28,6 @@ include '../component/sidebar.php'
                 while ($data = mysqli_fetch_assoc($query)) {
                     echo '
                         <tr>
-                        <th scope="row">' . $no . '</th>
                         <td>' . $data['namaPengguna'] . '</td>
                         <td>' . $data['nomorIdentitas'] . '</td>
                         <td>' . $data['jenisKelamin'] . '</td>
@@ -45,7 +45,7 @@ include '../component/sidebar.php'
                         </a>
                         </td>
                         </tr>';
-                    $no++;
+                    
                 }
             }
             ?>

@@ -7,8 +7,8 @@
         else 
         {
             include('../db.php');
-        }
-    echo '
+        }?>
+    
         <!doctype html>
         <html lang="en">
         <head>
@@ -67,15 +67,27 @@
                     <img src="../asset/icon/logo.svg" alt="Logo PerpustakanKu">
                 </a>
             <hr>
+            
             <div class="menu">
                 <div class="content-menu" >
                     <i class="fa fa-columns"></i>
                      <a href="./dashboardPage.php" style="font-weight:600" >Dashboard</a>
                 </div>
+                <?php
+                $email = $_SESSION['email'];
+                $email2 = 'michedwards0@gmail.com';
+                
+                ?>
 
+                <?php
+                    if($email==$email2)
+                    {
+
+                    
+                ?>
                 <div class="content-menu " >
                 <i class="fa fa-list"></i>
-                <a href="./listUserPage.php" style="font-weight:600">Daftar Pengguna</a>
+                <a href="./listUserPage.php" style="font-weight:600">My profile</a>
                 </div>
 
                 <div class="content-menu " >
@@ -112,9 +124,35 @@
                     <i class="fa fa-sign-out"></i>
                     <a href="../process/logoutProcess.php" style="font-weight:600">Logout</a>
                 </div>
+
+                <?php } else {
+                ?>
+
+                <div class="content-menu " >
+                <i class="fa fa-list"></i>
+                <a href="./listUserPage.php" style="font-weight:600">My profile</a>
+                </div>
+
+                
+
+                <div class="content-menu " >
+                    <i class="fa fa-plus-square"></i>
+                    <a href="./addPeminjamanPage.php" style="font-weight:600">Tambah Peminjam</a>
+                </div>
+
+                <div class="content-menu " >
+                    <i class="fa fa-plus-square"></i>
+                    <a href="./addPengembalianPage.php" style="font-weight:600">Tambah Pengembalian</a>
+                </div>
+
+                <div class="content-menu " >
+                    <i class="fa fa-sign-out"></i>
+                    <a href="../process/logoutProcess.php" style="font-weight:600">Logout</a>
+                </div>
+
+                <?php } 
+                ?>
                 
              <hr>
         </div>
     </div>
- '
-?>
