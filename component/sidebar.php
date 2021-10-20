@@ -63,7 +63,7 @@
         <div class="d-flex">
             <div class="side-bar">
             <hr>
-                <a class="navbar-brand fw-bold" href="../page/dashboardPage.php">
+                <a class="navbar-brand fw-bold" >
                     <img src="../asset/icon/logo.svg" alt="Logo PerpustakanKu">
                 </a>
             <hr>
@@ -104,18 +104,8 @@
                 </div>
 
                 <div class="content-menu " >
-                    <i class="fa fa-plus-square"></i>
-                    <a href="./addPeminjamanPage.php" style="font-weight:600">Tambah Peminjam</a>
-                </div>
-
-                <div class="content-menu " >
                 <i class="fa fa-list"></i>
                 <a href="./listPengembalianPage.php" style="font-weight:600">Daftar Pengembalian</a>
-                </div>
-
-                <div class="content-menu " >
-                    <i class="fa fa-plus-square"></i>
-                    <a href="./addPengembalianPage.php" style="font-weight:600">Tambah Pengembalian</a>
                 </div>
 
                 <div class="content-menu " >
