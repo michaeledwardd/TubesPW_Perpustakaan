@@ -50,6 +50,8 @@ include '../component/sidebar.php'
             ?>
         </tbody>
     </table>
+
+
 </div>
 </aside>
 <!-- Option 1: Bootstrap Bundle with Popper -->
