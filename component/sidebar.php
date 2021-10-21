@@ -127,6 +127,11 @@
                 </div>
 
                 <div class="content-menu " >
+                <i class="fa fa-list"></i>
+                <a href="./listPeminjamanPage.php" style="font-weight:600">Daftar Peminjam</a>
+                </div>
+
+                <div class="content-menu " >
                     <i class="fa fa-plus-square"></i>
                     <a href="./addPengembalianPage.php" style="font-weight:600">Kembalikan Buku</a>
                 </div>
