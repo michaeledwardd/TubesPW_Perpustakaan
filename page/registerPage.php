@@ -17,7 +17,7 @@
 <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container">
       <div class="logo">
-      <a class="navbar-brand fw-bold" href="\Tubes_PW\TubesPW_Perpustakaan">
+      <a class="navbar-brand fw-bold">
             <img src="../asset/icon/logo.svg" alt="Logo PerpustakanKu">
           </a>
       </div>
@@ -45,6 +45,7 @@
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
                             <select class="form-select" aria-label="Default select example" name="jenisKelamin" id="jenisKelamin">
+                                <option value=""></option>
                                 <option value="Laki-Laki">Laki-Laki</option>
                                 <option value="Perempuan">Perempuan</option>
                             </select>

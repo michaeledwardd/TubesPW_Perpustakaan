@@ -18,7 +18,7 @@
 <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container">
       <div class="logo">
-      <a class="navbar-brand fw-bold" href="\Tubes_PW\TubesPW_Perpustakaan">
+      <a class="navbar-brand fw-bold">
             <img src="../asset/icon/logo.svg" alt="Logo PerpustakanKu">
           </a>
       </div>
