@@ -9,7 +9,7 @@
                     <img class="card-imgtop" src="https://inc.mizanstore.com/aassets/img/com_cart/produk/sprint-republish-5-hari-sukses-pecahkan-masalah-dan-uji-ide-baru.jpg"  alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">SPRINT</h5>
-                        <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="cardtext">Menceritakan kisah pelajar yang ingin bisa dalam menguasai dunia dengan cepat, Ia diminta untuk menerapkan metode sprint dalam hidupnya sehingga tidak membuang banyak waktu</p>
                         
                     </div>
                 </div>
@@ -17,7 +17,7 @@
                     <img class="card-imgtop" src="https://pimtar.id/filex/source/buku-problem-solving-101-sebuah-buku-sederhana-untuk%20-orang-pintar.jpg"  alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Problem Solving 101</h5>
-                    <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="cardtext">Menceritakan kisah manusia yang memiliki masalahnya masing-masing, Buku ini membagikan kisah beberapa masalah kehidupan manusia dan cara penyelesaiannya sehingga tidak ada pihak yang dirugikan.</p>
                     
                 </div>
             </div>
@@ -25,7 +25,7 @@
                 <img class="card-imgtop" src="https://ebooks.gramedia.com/ebook-covers/22761/big_covers/ID_SIS2015MTH03DMMT_B.jpg"  alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Don't Make Me Think!</h5>
-                    <p class="cardtext">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="cardtext">Menceritakan dan mengajak pembaca agar tidak terus memikirkan diri sendiri, kita diajak untuk memikirkan kepentingan orang lain karena kepentingan banyak orang jauh lebih berguna untuk kemajuan bangsa.</p>
                     
                 </div>
             </div>
