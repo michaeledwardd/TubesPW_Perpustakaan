@@ -127,6 +127,11 @@
                 </div>
 
                 <div class="content-menu " >
+                <i class="fa fa-list"></i>
+                <a href="./listBukuUser.php" style="font-weight:600">Daftar Buku</a>
+                </div>
+
+                <div class="content-menu " >
                     <i class="fa fa-plus-square"></i>
                     <a href="./addPeminjamanPage.php" style="font-weight:600">Pinjam Buku</a>
                 </div>
