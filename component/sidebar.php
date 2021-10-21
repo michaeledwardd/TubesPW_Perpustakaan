@@ -89,6 +89,11 @@
                 </div>
 
                 <div class="content-menu " >
+                <i class="fa fa-list"></i>
+                <a href="./listUserAdminPage.php" style="font-weight:600">Daftar Pengguna</a>
+                </div>
+
+                <div class="content-menu " >
                     <i class="fa fa-list"></i>
                     <a href="./listBukuPage.php" style="font-weight:600">Daftar Buku</a>
                 </div>

@@ -19,7 +19,7 @@
         {
             echo
             '<script>
-            alert("Create data Pengembalian success"); window.location = "../page/listPengembalianPage.php"
+            alert("Create data Pengembalian success"); window.location = "../page/addPengembalianPage.php"
             </script>';
         }
         else

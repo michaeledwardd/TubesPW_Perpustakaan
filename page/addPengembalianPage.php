@@ -39,9 +39,8 @@
             
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Status Pengembalian</label>
-                <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian" required>
+                <select class="form-select" aria-label="Default select example" name="statusPengembalian" id="statusPengembalian" required >
                     <option value=""> </option>
-                    <option value="Sudah">Sudah</option>
                     <option value="Belum">Belum</option>
                     
                 </select>
