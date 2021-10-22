@@ -24,6 +24,7 @@
             </div>
             <div class="d-flex justify-content-end">
                 <button class="btn btn-primary me-2" type="button">
+                    <em class="bi bi-arrow-left-circle-fill"></em>
                     <a class="text-light" style="text-decoration: none" href="../">Kembali</a>
                 </button>
             </div>
