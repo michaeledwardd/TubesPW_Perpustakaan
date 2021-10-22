@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
-                                        <select class="form-select" aria-label="Default select example" name="jenisKelamin" id="jenisKelamin">
+                                        <select class="form-select" aria-label="Default select example" name="jenisKelamin" id="jenisKelamin" required>
                                             <option value=""></option>
                                             <option value="Laki-Laki">Laki-Laki</option>
                                             <option value="Perempuan">Perempuan</option>
