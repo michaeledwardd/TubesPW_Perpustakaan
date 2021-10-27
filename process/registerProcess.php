@@ -78,6 +78,7 @@
         //Read an HTML message body from an external file, convert referenced images to embedded,
         //convert HTML into a basic plain-text alternative body
         $body = "Hi, ".$namaPengguna."<br>Plase verif your email before access our website : <br> http://localhost:8081/TUGASBESAR_PERPUSTAKAANKITA/process/confirmEmail.php?code=".$code;
+        //$body = "Hi, ".$namaPengguna."<br>Plase verif your email before access our website : <br> http://perpustakaankita.com/process/confirmEmail.php?code=".$code;
         $mail->Body = $body;
         //Replace the plain text body with one created manually
         $mail->AltBody = 'Verification Account';
@@ -87,6 +88,10 @@
             echo 'Mailer Error: '. $mail->ErrorInfo;
         } else {
             echo 'Register sukses silahkan login !';
+        
+        //echo '<script>alert("Register Sukses Silahkan login");
+        //window.location.href = "http://www.perpustakaankita.com/page/loginPage.php"
+        //</script>
             
             //Section 2: IMAP
             //Uncomment these to save your message in the 'Sent Mail' folder.
